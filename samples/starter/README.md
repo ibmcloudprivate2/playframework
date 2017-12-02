@@ -130,9 +130,11 @@ name | value
 Name | js-play-web
 Image | mycluster.icp:8500/jaricdev/play-javaapp:1.0
 Container port | 9000
-https://github.com/ibmcloudprivate2/dotnet/tree/master/images
 
-![app](../../images/deployment.png)
+<!-- https://github.com/ibmcloudprivate2/dotnet/tree/master/images
+https://github.com/ibmcloudprivate2/playframework/tree/master/images -->
+
+![app](../../../../playframework/images/deployment.png)
 
 # Expose the deployment with Service
 
