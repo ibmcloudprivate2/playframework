@@ -131,10 +131,7 @@ Name | js-play-web
 Image | mycluster.icp:8500/jaricdev/play-javaapp:1.0
 Container port | 9000
 
-<!-- https://github.com/ibmcloudprivate2/dotnet/tree/master/images
-https://github.com/ibmcloudprivate2/playframework/tree/master/images -->
-
-![app](../../../../playframework/images/deployment.png)
+![app](https://github.com/ibmcloudprivate2/dotnet/tree/master/images/deployment.png)
 
 # Expose the deployment with Service
 
@@ -157,17 +154,17 @@ name | value
 -----| -----
 app | js-play-web
 
-![app](../../images/service.png)
+![app](https://github.com/ibmcloudprivate2/dotnet/tree/master/images/service.png)
 
 # Operation on application deployed
 You can deploy new version of image, rollback, scale and remove your deployment from the deployment dashboard. Search for your application and click on the vertical ellipsis "..." as shown below.
 
-![app](../../images/deployment-ops.png)
+![app](https://github.com/ibmcloudprivate2/dotnet/tree/master/images/deployment-ops.png)
 
 # Access the application
 You can access your application from Service dashboard, search for your application and from there you can find your application endpoint and remove the service.
 
-![app](../../images/service-ops.png)
+![app](https://github.com/ibmcloudprivate2/dotnet/tree/master/images/service-ops.png)
 
 ## the play framework java application
 Below shows the application running in [IBM Cloud private](https://www.ibm.com/cloud-computing/products/ibm-cloud-private/)
