@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/conf/logback.xml,/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/conf/application.conf,/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/conf/routes,/Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/target/scala-2.12/classes/routes)[0m

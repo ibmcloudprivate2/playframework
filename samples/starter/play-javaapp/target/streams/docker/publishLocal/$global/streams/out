@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t play-javaapp:1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/jaricsng/dev/github/jaricsng/playframework/samples/starter/play-javaapp/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  40.97MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/7 : FROM openjdk:latest[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 377371113dab[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/7 : LABEL MAINTAINER "Jaric Sng"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 72a67b7e4306[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/7 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8d96baeca719[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/7 : ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> bed4469140ab[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/7 : USER daemon[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in f57c353dafe8[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 67efcde435cc[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container f57c353dafe8[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/7 : ENTRYPOINT bin/play-javaapp[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in de1b55b26a4c[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 52b7a23abe15[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container de1b55b26a4c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/7 : CMD[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in bd34f9623213[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 6e4389d2979e[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container bd34f9623213[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 6e4389d2979e[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged play-javaapp:1.0-SNAPSHOT[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image play-javaapp:1.0-SNAPSHOT[0m
