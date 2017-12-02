@@ -54,6 +54,11 @@ in file ./conf/application.conf
 add the following
 ```
 play.http.secret.key = "0123456789"
+
+play.filters.hosts {
+  # Allow requests to example.com, its subdomains, and localhost:9000.
+  allowed = ["192.168.64.221", "localhost:9000"]
+}
 ```
 
 ## Create the image
