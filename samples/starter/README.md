@@ -10,7 +10,7 @@ sbt is a Scala Build Tools, we will use this to work with Play Framework
 ### on mac
 Install sbt on mac using brew
 ```
-
+brew install sbt@1
 ```
 
 # Create a new starter Application
